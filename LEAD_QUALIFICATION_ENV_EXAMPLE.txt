@@ -1,0 +1,34 @@
+# ============================================================================
+# LEAD QUALIFICATION & CALENDLY INTEGRATION SETTINGS
+# ============================================================================
+# Add these to your .env file and customize the values
+
+# Lead Qualification AI Settings
+LEAD_QUALIFICATION_ENABLED=true
+LEAD_QUALIFICATION_CONFIDENCE_THRESHOLD=0.75
+LEAD_QUALIFICATION_MODEL=gpt-3.5-turbo
+LEAD_QUALIFICATION_LOGGING_ENABLED=true
+
+# Calendly Integration
+CALENDLY_DISCOVERY_CALL_URL=https://calendly.com/your-company/discovery-call
+CALENDLY_AUTO_SEND_ENABLED=true
+
+# Lead Scoring Configuration
+QUALIFIED_LEAD_MIN_SCORE=70
+DISCOVERY_CALL_LEAD_SCORE_BOOST=30
+
+# ============================================================================
+# EXAMPLE VALUES - UPDATE WITH YOUR SETTINGS
+# ============================================================================
+
+# Replace with your actual Calendly link:
+# CALENDLY_DISCOVERY_CALL_URL=https://calendly.com/yourname/15min
+
+# Adjust confidence threshold (0.6 = more leads, 0.85 = fewer, higher-quality leads):
+# LEAD_QUALIFICATION_CONFIDENCE_THRESHOLD=0.75
+
+# Adjust minimum score required for qualification:
+# QUALIFIED_LEAD_MIN_SCORE=70
+
+# Points added to lead score when qualified for discovery call:
+# DISCOVERY_CALL_LEAD_SCORE_BOOST=30 
